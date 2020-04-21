@@ -9,7 +9,7 @@
   </ul>
   <div class="container your-code">
     <label style="margin-right:20px ;">Enter Input    </label>
-    <input type="text" #mybox (input)="onSearchChange($event.target.value)">
+    <input type="text" #mybox (input)="onSearchChange(mybox.value)">
     <h6>Output is : <label style="border-width: 11px;">{{TextBoxOutput}} </label>
     </h6> 
   </div>
